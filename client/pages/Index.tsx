@@ -190,7 +190,7 @@ export default function Index() {
                   </h3>
                   <div className="mt-3 space-y-2">
                     <div className="flex items-center gap-2 text-xs text-sidebar-foreground/70">
-                      <div className="h-2 w-2 rounded-full bg-dashboard-purple"></div>
+                      <div className="h-2 w-2 rounded-full bg-primary"></div>
                       Bright Start Academy at Falls Point
                     </div>
                     <button className="text-xs text-black hover:text-primary/80 transition duration-200 flex items-center gap-1">
@@ -247,7 +247,7 @@ export default function Index() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col overflow-hidden lg:pl-72 my-4">
+      <div className="flex-1 flex flex-col overflow-hidden lg:pl-72 ">
         {/* Header */}
         <header className="bg-white border-b border-gray-200 p-4">
           <div className="flex items-center justify-between">
