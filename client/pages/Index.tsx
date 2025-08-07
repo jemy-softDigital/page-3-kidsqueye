@@ -305,7 +305,7 @@ export default function Index() {
             {/* Enrollment Funnel Metrics */}
             <section>
               <div className="flex items-center space-x-2 mb-6">
-                <Eye className="w-5 h-5 text-blue-600" />
+                <Eye className="w-5 h-5 text-primary" />
                 <h2 className="text-lg font-semibold text-gray-900">
                   Enrollment Funnel Metrics
                 </h2>
@@ -337,7 +337,7 @@ export default function Index() {
                             <Icon
                               className={`w-5 h-5 ${
                                 metric.color === "blue"
-                                  ? "text-blue-600"
+                                  ? "text-primary"
                                   : metric.color === "green"
                                     ? "text-green-600"
                                     : metric.color === "purple"
@@ -377,7 +377,7 @@ export default function Index() {
             {/* Operational Metrics */}
             <section>
               <div className="flex items-center space-x-2 mb-6">
-                <Zap className="w-5 h-5 text-green-600" />
+                <Zap className="w-5 h-5 text-primary" />
                 <h2 className="text-lg font-semibold text-gray-900">
                   Operational Metrics
                 </h2>
@@ -428,7 +428,7 @@ export default function Index() {
             <section>
               <div className="flex flex-col  space-x-2 mb-6">
                 <h2 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                  <TrendingUp className="w-5 h-5 text-purple-600" />
+                  <TrendingUp className="w-5 h-5 text-primary" />
                   Benchmarking & Performance
                 </h2>
                 <p className="text-sm text-gray-500">
@@ -469,7 +469,7 @@ export default function Index() {
               {/* QR Campaign Performance */}
               <section>
                 <div className="flex items-center space-x-2 mb-6">
-                  <QrCode className="w-5 h-5 text-indigo-600" />
+                  <QrCode className="w-5 h-5 text-primary" />
                   <h2 className="text-lg font-semibold text-gray-900">
                     QR Campaign Performance
                   </h2>
