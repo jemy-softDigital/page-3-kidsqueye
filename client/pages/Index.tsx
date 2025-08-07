@@ -137,7 +137,7 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-3">
                 <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-                  <Users className="h-5 w-5 text-black-foreground" />
+                  <Users className="h-5 w-5 text-background" />
                 </div>
                 <div>
                   <h1 className="text-sm font-semibold text-sidebar-foreground">
