@@ -132,7 +132,7 @@ export default function Index() {
       {/* Sidebar */}
       {/* Desktop Sidebar */}
       <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
-        <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-sidebar px-6 pb-4">
+        <div className="flex grow flex-col gap-y-3 overflow-y-auto bg-sidebar px-6 pb-4">
           <div className="pt-4">
             <div>
               <div className="flex items-center gap-3">
@@ -154,7 +154,7 @@ export default function Index() {
             </div>
           </div>
           <nav className="flex flex-1 flex-col">
-            <ul role="list" className="flex flex-1 flex-col gap-y-7">
+            <ul role="list" className="flex flex-1 flex-col gap-y-4">
               <li>
                 <ul role="list" className="-mx-2 space-y-1">
                   {navigation.map((item) => (
